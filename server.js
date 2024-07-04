@@ -4,6 +4,8 @@ import cors from 'cors';
 import PublicRoutes from './routes/PublicRoutes.js';
 import PrivateRoutes from './routes/PrivateRoutes.js';
 
+
+
 const app = express();
 
 app.use(cors());
